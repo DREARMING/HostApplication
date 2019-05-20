@@ -35,4 +35,12 @@
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="8dp" />
 
+    <Button
+        android:id="@+id/btCheckReflect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="测试包访问权限"
+        app:layout_constraintTop_toBottomOf="@+id/btStartPluginActvity" />
+
 </android.support.constraint.ConstraintLayout>
